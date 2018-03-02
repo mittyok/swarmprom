@@ -48,7 +48,7 @@ services:
       - /:/rootfs:ro
       - /var/run:/var/run
       - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
+      - /data/var/lib/docker/:/var/lib/docker:ro
     deploy:
       mode: global
       resources:
